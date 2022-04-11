@@ -11,7 +11,7 @@ function even_or_odd () {
     }
 }
 // This is the main function which displays the groups and uses sequencing by having more than one block that runs.
-function anounce_groups (even_or_odd2: string) {
+function announce_groups (even_or_odd2: string) {
     // Here is some selection being used by changing what part of the code runs depending on if there is an even or odd number of names because if its odd we will need to display a group of three.
     if (even_or_odd2 == "odd") {
         // This repeats the displaying part because we want to display more than one group, it has a -2 on it bc of the odd number of names and this counter acts a bug where it would display an extra group.
@@ -55,4 +55,4 @@ for (let index = 0; index < num_names; index++) {
 // This removes the blank variable from the list from when it was created.
 text_list.removeAt(text_list.indexOf(""))
 // This calls the function that displays each group.
-anounce_groups(even_or_odd())
+announce_groups(even_or_odd())
